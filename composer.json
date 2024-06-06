@@ -1,0 +1,28 @@
+{
+    "name": "Osid/laravel-api-rate-limiter",
+    "description": "A robust API rate limiter and throttling package for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osid Alsagir",
+            "email": "osid.alsagheer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osid\\ApiRateLimiter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Osid\\ApiRateLimiter\\ApiRateLimiterServiceProvider"
+            ]
+        }
+    }
+}

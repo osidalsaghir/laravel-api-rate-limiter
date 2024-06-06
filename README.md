@@ -17,7 +17,7 @@ A robust API rate limiter and throttling package for Laravel, designed to manage
    Publish the configuration file using the artisan command:
 
    ```bash
-   php artisan vendor:publish --provider="Osid\ApiRateLimiter\ApiRateLimiterServiceProvider" --tag=config
+   php artisan vendor:publish --provider="osid\ApiRateLimiter\ApiRateLimiterServiceProvider" --tag=config
    ```
 
    This will create a configuration file at `config/api-rate-limiter.php`.

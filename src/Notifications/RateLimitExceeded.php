@@ -1,6 +1,6 @@
 <?php
 
-namespace Osid\ApiRateLimiter\Notifications;
+namespace osid\ApiRateLimiter\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;

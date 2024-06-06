@@ -1,6 +1,6 @@
 <?php
 
-namespace Osid\ApiRateLimiter\Http\Middleware;
+namespace osid\ApiRateLimiter\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Cache;

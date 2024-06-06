@@ -1,6 +1,6 @@
 <?php
 
-namespace Osid\ApiRateLimiter;
+namespace osid\ApiRateLimiter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,6 +31,6 @@ class ApiRateLimiterServiceProvider extends ServiceProvider
 
         // Register Middleware
         $router = $this->app['router'];
-        $router->aliasMiddleware('api.rate.limiter', \Osid\ApiRateLimiter\Http\Middleware\ApiRateLimiter::class);
+        $router->aliasMiddleware('api.rate.limiter', \osid\ApiRateLimiter\Http\Middleware\ApiRateLimiter::class);
     }
 }
